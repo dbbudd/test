@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3A7315D1D23EFD2005505F6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A7315C1D23EFD2005505F6 /* UIView+Extension.swift */; };
 		C28FB4871D212F6F00FEAEC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28FB4861D212F6F00FEAEC1 /* AppDelegate.swift */; };
 		C28FB4891D212F6F00FEAEC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28FB4881D212F6F00FEAEC1 /* ViewController.swift */; };
 		C28FB48C1D212F6F00FEAEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28FB48A1D212F6F00FEAEC1 /* Main.storyboard */; };
 		C28FB48E1D212F6F00FEAEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28FB48D1D212F6F00FEAEC1 /* Assets.xcassets */; };
 		C28FB4911D212F6F00FEAEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28FB48F1D212F6F00FEAEC1 /* LaunchScreen.storyboard */; };
-		C28FB4991D236CF300FEAEC1 /* hintButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28FB4981D236CF300FEAEC1 /* hintButton.swift */; };
-		C28FB49B1D23724700FEAEC1 /* Hint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28FB49A1D23724700FEAEC1 /* Hint.swift */; };
+		C28FB4991D236CF300FEAEC1 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28FB4981D236CF300FEAEC1 /* ToggleButton.swift */; };
+		C28FB49B1D23724700FEAEC1 /* HintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28FB49A1D23724700FEAEC1 /* HintView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A3A7315C1D23EFD2005505F6 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		C28FB4831D212F6F00FEAEC1 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28FB4861D212F6F00FEAEC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C28FB4881D212F6F00FEAEC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +26,8 @@
 		C28FB48D1D212F6F00FEAEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C28FB4901D212F6F00FEAEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C28FB4921D212F6F00FEAEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C28FB4981D236CF300FEAEC1 /* hintButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hintButton.swift; sourceTree = "<group>"; };
-		C28FB49A1D23724700FEAEC1 /* Hint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hint.swift; sourceTree = "<group>"; };
+		C28FB4981D236CF300FEAEC1 /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		C28FB49A1D23724700FEAEC1 /* HintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,9 @@
 			children = (
 				C28FB4861D212F6F00FEAEC1 /* AppDelegate.swift */,
 				C28FB4881D212F6F00FEAEC1 /* ViewController.swift */,
-				C28FB49A1D23724700FEAEC1 /* Hint.swift */,
-				C28FB4981D236CF300FEAEC1 /* hintButton.swift */,
+				C28FB49A1D23724700FEAEC1 /* HintView.swift */,
+				C28FB4981D236CF300FEAEC1 /* ToggleButton.swift */,
+				A3A7315C1D23EFD2005505F6 /* UIView+Extension.swift */,
 				C28FB48A1D212F6F00FEAEC1 /* Main.storyboard */,
 				C28FB48D1D212F6F00FEAEC1 /* Assets.xcassets */,
 				C28FB48F1D212F6F00FEAEC1 /* LaunchScreen.storyboard */,
@@ -144,9 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C28FB49B1D23724700FEAEC1 /* Hint.swift in Sources */,
-				C28FB4991D236CF300FEAEC1 /* hintButton.swift in Sources */,
+				C28FB49B1D23724700FEAEC1 /* HintView.swift in Sources */,
+				C28FB4991D236CF300FEAEC1 /* ToggleButton.swift in Sources */,
 				C28FB4891D212F6F00FEAEC1 /* ViewController.swift in Sources */,
+				A3A7315D1D23EFD2005505F6 /* UIView+Extension.swift in Sources */,
 				C28FB4871D212F6F00FEAEC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +307,7 @@
 				C28FB4971D212F6F00FEAEC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
