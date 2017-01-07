@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         
         self.view.addSubview(hintView)
         
+        let hintView2 = hint.viewWith(point: CGPoint(x: 10, y: 300), hintText: "This is more text")
+        
+        self.view.addSubview(hintView2)
+        
+        
     }
     
     
